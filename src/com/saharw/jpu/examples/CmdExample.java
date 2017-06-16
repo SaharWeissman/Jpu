@@ -1,5 +1,6 @@
-package com.saharw.jpu;
+package com.saharw.jpu.examples;
 
+import com.saharw.jpu.Jpu;
 import com.saharw.jpu.core.GpuRunnable;
 import com.saharw.jpu.ext.IGpuRunnableCallback;
 import com.saharw.jpu.io.JpuInputStream;
@@ -10,7 +11,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class CmdExample {
 
     private final static String WELCOME_MSG = "Welcome to Jpu Command line interface!\nplease select one of the options below:\n";
     private final static String[] MENU_OPTIONS_ARRAY = new String[]{"File copy test"};
